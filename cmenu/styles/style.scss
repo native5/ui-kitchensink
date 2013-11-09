@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+
+.menu {
+	position: absolute;
+	  li {
+		&:first-child {
+		  background: #f00;
+		  font-weight: bold;
+		  font-family: arial black;
+		  font-size: 200%;
+		  background: url(../images/plus.png);
+		  border-color: #fff;
+		  border-width: 2px;
+		  border-style: solid;
+		  box-shadow: 0 0 2px 1px #aaa; }
+		background: #000;
+		color: #fff;
+		font-size: 25px; }
+	  a {
+		text-decoration: none;
+		color: #fff; 
+		} 
+}
+
+.ui-link {
+	text-decoration: none !important;
+	color: #fff !important;
+	:hover {
+		text-decoration: none !important;
+		color: #fff !important;
+	}
+	:visited {
+		text-decoration: none !important;
+		color: #fff !important;
+	}
+}
+
+#menu2 {
+	left: 135px;
+	top: 135px;
+  -webkit-transform-origin: 17px 17px;
+  -moz-transform-origin: 17px 17px;
+  -o-transform-origin: 17px 17px;
+  transform-origin: 17px 17px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  &.circlemenu-open {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    > li:first-child {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg); } } }
+
+:not(#menu2).circlemenu-open > li:first-child {
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg); }
+
+#examples {
+  > div {
+    width: 100%;
+    height: 300px;
+	border: 1px solid grey;
+    position: relative;
+    overflow: hidden; } }

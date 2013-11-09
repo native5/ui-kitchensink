@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#container {
+  background: #aaa; }
+
+.touchscroll .touchscroll_container {
+  width: 100%;
+  height: 60px; }
+.touchscroll .touchscroll_right {
+  width: 0;
+  height: 0;
+  border-left: 40px solid #c00;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; }
+.touchscroll .touchscroll_left {
+  width: 0;
+  height: 0;
+  border-right: 40px solid #c00;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; }
+.touchscroll .touchscroll_slide {
+  width: 80px;
+  height: 60px;
+  background-image: linear-gradient(top, #003366 25%, #006699 63%);
+  background-image: -o-linear-gradient(top, #003366 25%, #006699 63%);
+  background-image: -moz-linear-gradient(top, #003366 25%, #006699 63%);
+  background-image: -webkit-linear-gradient(top, #003366 25%, #006699 63%);
+  background-image: -ms-linear-gradient(top, #003366 25%, #006699 63%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.25, #003366), color-stop(0.63, #006699));
+  border: 1px solid grey;
+  line-height: 60px;
+  color: white;
+  font-weight: bold;
+  text-align: center; }

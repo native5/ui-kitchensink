@@ -1,0 +1,10 @@
+.ui-header-div {
+  width: 100%;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  background-color: green;
+  color: white;
+  text-shadow: 1px black;
+  font-size: 1.25em;
+  padding: 0px 10px; }

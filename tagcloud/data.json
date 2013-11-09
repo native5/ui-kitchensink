@@ -1,0 +1,34 @@
+{
+"tags": [
+	{ "name":"Bikas" , "imp":"1" , "weight":"9", "age":"0" }, 
+	{ "name":"Vaibhav" , "imp":"0" , "weight":"5", "age":"2" }, 
+	{ "name":"Rahul" , "imp":"1" , "weight":"1", "age":"1" }, 
+	{ "name":"Rohit" , "imp":"1" , "weight":"9", "age":"9" }, 
+	{ "name":"Raj" , "imp":"0" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"0" , "weight":"0", "age":"9" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"7", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"5", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"9", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"3", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"2", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"4", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"2", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"1", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"8", "age":"1" }, 
+	{ "name":"Bikas" , "imp":"1" , "weight":"0", "age":"1" }
+],
+"colors": [
+	{ "color": "red"},
+	{ "color": "blue"},
+	{ "color": "green"},
+	{ "color": "yellow"},
+	{ "color": "#454520"},
+	{ "color": "#202099"}
+]
+}

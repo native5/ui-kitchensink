@@ -1,0 +1,7 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#canvas {
+  -webkit-transition: -webkit-transform 2s ease-out;
+  margin-top: -150px; }

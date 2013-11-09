@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Native5 Notification Demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+		<link rel="stylesheet" href="styles/style.css">
+		
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+		<script src="../src/native5.notifications.js"></script>
+		<script src="scripts/app.js"></script>
+	</head>
+	<body>
+		<div id="Home" data-role="page">
+			<div data-role="header" data-position="fixed" data-theme="b" data-id="hdr">
+				<a data-type="button" data-inline="true" data-rel="back" data-icon="home" data-iconpos="notext" class="ui-btn-right">Back</a>
+				<h3>Notification Widget</h3>
+			</div>
+			
+			<div id="divcontent" data-role="content" style="padding: 0;">
+				<ul data-role="listview" style="margin: 0px !important;">
+					<li>
+						<a id="btn1">Show Toast Notification</a>
+					</li>
+					<li>
+						<a id="btn2">Show Progress Notification</a>
+					</li>
+					<li>
+						<a id="btn3">Show Web Notification</a>
+					</li>
+					<li>
+						<a id="btn4">Update Progress Notification</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
